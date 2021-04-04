@@ -1,0 +1,83 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.slide{
+  position: relative;
+  
+  width: 100%;
+  height: 20%;
+  background-color: rgb(167, 204, 178);
+}
+.slideImage{
+  width: 100%;
+  height: 100%;
+  
+}
+.mainFunctions{
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}
+.memory{
+  width: 180rpx;
+  height: 180rpx;
+  margin-left: 5rpx;
+  margin-top: 10rpx;
+  border-radius: 10%;
+  background-color:rgb(154, 216, 173);
+  font-size: large;
+}
+
+.functionName{
+  text-align: center;
+  margin-top: 30%;
+}
+.period{
+  width: 180rpx;
+  height: 180rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  border-radius: 10%;
+  background-color: rgb(226, 164, 224);
+  font-size: large;
+
+}
+.task{
+  width: 180rpx;
+  height: 180rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  border-radius: 10%;
+  background-color: rgb(216, 168, 154);
+  font-size: large;
+
+}
+.dream{
+  width: 180rpx;
+  height: 180rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  border-radius: 10%;
+  background-color: rgb(156, 197, 221);
+  font-size: large;
+}
+.motto{
+  width: 90%;
+  margin-top: 20rpx;
+  border-radius: 10%;
+  text-align: center;
+  color: rgb(146, 167, 136);
+}
+.mottoContent{
+  margin-top: 100rpx;
+  margin-bottom: 100rpx;
+}

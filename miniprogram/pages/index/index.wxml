@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="slide">
+    <swiper indicator-dots="true" autoplay="true" circular="true">
+      <swiper-item>
+        <image class="slideImage" src="{{slideImageUrl1}}" mode="aspectFill"></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="slideImage" src="{{slideImageUrl2}}" mode="aspectFill"></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="slideImage" src="{{slideImageUrl3}}" mode="aspectFill"></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="slideImage" src="{{slideImageUrl4}}" mode="aspectFill"></image>
+      </swiper-item>
+      <swiper-item>
+        <image class="slideImage" src="{{slideImageUrl5}}" mode="aspectFill"></image>
+      </swiper-item>
+    </swiper>
+
+  </view>
+
+  <view class="mainFunctions">
+    
+
+   
+    <view class="memory">
+      <view class="functionName">纪念日</view>
+    </view>
+    <view class="period">
+      <view class="functionName">生理期</view> 
+    </view>
+    <view class="task">
+      <view class="functionName">任务</view>
+    </view>
+    <view class="dream">
+      <view class="functionName">flag</view>
+    </view>
+  </view>
+
+  <view class="motto">
+    <view class="mottoContent">
+      也期待二十岁的我们会在某一个时刻，跨过眼前这片海，到达同一个彼岸。--王源
+    </view>
+    <view class="mottoContent">
+      我希望，你为你自己的人生感到骄傲；
+      如果你发现自己还没有做到，
+      我希望，你有勇气 重头再来
+    </view>
+    <view class="mottoContent">
+      生而自由 爱而无畏
+    </view>
+    <view class="mottoContent">
+      挺好的 沉淀自己
+    </view>
+
+  </view>
+
+ 
+
+</view>
